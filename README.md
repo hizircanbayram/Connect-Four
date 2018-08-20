@@ -1,15 +1,19 @@
 # Connect Four
 
-Simple Connect Four game on Android OS with some experimental stuffs:
-  - Random move if there is no any move in adjusted amount of time.
-  - Undo moves as much as possible.
-  - Adjustable game size from 6-6 to 40-40.
+A simple CF game on Android OS with ome new features
+
+	- Selects a random move if one is not made in the specific amount of time
+	- You can undo moves as much as possible
+	- Adjustable game size from 6-6 to 40-40.
+
 
 Two game modes:
-  - Player vs Player
-  - Player vs Computer (Computer moves randomly)
 
-Alpha-beta pruning algorithm for computer moves and more cool animations are welcome.
+    Player vs Player
+    Player vs Computer (Computer moves randomly)
+
+Alpha-beta pruning algorithm for computer moves and more exciting animations are welcome.
+
 
 
 
