@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xxx.connectfourv3.GameMode">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:background="@color/colorBlack"
+        android:gravity="center"
+        android:text="@string/welcomeSign"
+        android:textColor="@color/colorGreen"
+        android:textSize="33sp" />
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:background="@color/colorBlack"
+        android:gravity="center"
+        android:text="@string/welcomeSigm"
+        android:textColor="@color/colorGreen"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/pvp"
+        android:layout_width="match_parent"
+        android:background="@color/colorBlack"
+        android:layout_height="100dp"
+        android:text="@string/pvp"
+        android:textSize="17sp"
+        android:textColor="@color/colorRed"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:id="@+id/pvc"
+        android:layout_width="match_parent"
+        android:background="@color/colorBlack"
+        android:layout_height="100dp"
+        android:text="@string/pvc"
+        android:textSize="17sp"
+        android:textColor="@color/colorRed"
+        android:layout_margin="3dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:background="@color/colorBlack"
+        android:layout_height="212dp" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ConnectFourv1</string>
+    <string name="firstMessage">Game Settings</string>
+    <string name="play">PLAY</string>
+    <string name="boardSize">Enter board size</string>
+    <string name="welcomeSigm">Choose your game mode</string>
+    <string name="pvp">Player vs Player</string>
+    <string name="pvc">Player vs CPU</string>
+    <string name="undo">UNDO</string>
+    <string name="textViewthreadCount">0</string>
+    <string name="timeAmount">Enter time amount</string>
+    <string name="increaseTime">INCREASE</string>
+    <string name="decreaseTime">DECREASE</string>
+    <string name="timeScreen">3</string>
+    <string name="boardAmount">Enter board size</string>
+    <string name="increaseSize">INCREASE</string>
+    <string name="decreaseSize">DECREASE</string>
+    <string name="playAgain">PLAY AGAIN</string>
+    <string name="exit">EXIT</string>
+    <string name="welcomeSign">Welcome Connect4</string>
+</resources>

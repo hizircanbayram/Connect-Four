@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xxx.connectfourv3.Main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_weight=".3"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/firstMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/colorBlack"
+            android:text="@string/firstMessage"
+            android:textSize="27sp"
+            android:textColor="@color/colorGreen"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight=".1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="87dp">
+
+        <TextView
+            android:id="@+id/timeAmount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/colorBlack"
+            android:text="@string/timeAmount"
+            android:textSize="17sp"
+            android:textColor="@color/colorRed"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight=".15"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="160dp">
+
+        <Button
+            android:id="@+id/increaseTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorYellow"
+            android:text="@string/increaseTime"
+            android:textSize="17sp"
+            android:textColor="@color/colorBlack"
+            android:layout_margin="7dp"/>/>
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorBlack"
+            android:gravity="center"
+            android:text="@string/timeScreen"
+            android:textSize="17sp"
+            android:textColor="@color/colorRed"/>
+            tools:text="3" />
+
+        <Button
+            android:id="@+id/decreaseTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorYellow"
+            android:text="@string/decreaseTime"
+            android:textSize="17sp"
+            android:textColor="@color/colorBlack"
+            android:layout_margin="7dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="267dp">
+
+        <TextView
+            android:id="@+id/boardAmount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorBlack"
+            android:gravity="center"
+            android:text="@string/boardAmount"
+            android:textSize="17sp"
+            android:textColor="@color/colorRed"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_weight=".15"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="340dp">
+
+        <Button
+            android:id="@+id/increaseSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorYellow"
+            android:layout_weight="1"
+            android:text="@string/increaseSize"
+            android:textSize="17sp"
+            android:textColor="@color/colorBlack"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/sizeView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlack"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="5"
+            tools:text="5"
+            android:textSize="17sp"
+            android:textColor="@color/colorRed"/>
+
+        <Button
+            android:id="@+id/decreaseSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorYellow"
+            android:layout_weight="1"
+            android:text="@string/decreaseSize"
+            android:textSize="17sp"
+            android:textColor="@color/colorBlack"
+            android:layout_margin="7dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_weight=".2"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="450dp">
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlack"
+            android:layout_weight="1"
+            android:text="@string/play"
+            android:textSize="17sp"
+            android:textColor="@color/colorRed"
+            android:layout_margin="7dp"/>
+    </LinearLayout>
+</LinearLayout>
